@@ -2,9 +2,8 @@
 	$h1 = "Willkommen";
 	$h2 = "Herzlich";
 	$h3 = "Ihre Radiologie in Aachen";
-	$text_block1 = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam doloribus consequuntur modi, consequatur iste ex! Exercitationem unde magni vero vitae nulla qui magnam nesciunt animi, dolores inventore, quasi possimus id";
-	$text_block2 = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum alias quo repellendus neque nesciunt incidunt quam? Nulla sequi reiciendis, suscipit perferendis, neque ea dolore earum corrupti saepe vel, porro reprehenderit!
-	Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis in vel qui illo quam autem ullam reiciendis impedit saepe optio, quae sapiente ex quas nulla pariatur repudiandae nemo reprehenderit sint!";
+	$text_block1 = "Unsere Praxis in der Heinrichsallee in Aachen bietet Ihnen Untersuchungen und Therapien aus dem Spektrum der Radiologie, Strahlentherapie und Nuklearmedizin. Das Ziel unserer im Jahre 1992 gegründeten Gemeinschaftspraxis war und ist es, unter besonderer Berücksichtigung der Patientinnen und Patienten mithilfe modernster Gerätetechnik die bestmöglichen Untersuchungsergebnisse zu erzielen.";
+	$text_block2 = "Der Zusammenschluss der Radiologie, der Nuklearmedizin und der Strahlentherapie ermöglicht ein Betrachten der Patienten und deren Erkrankungen aus unterschiedlichen Blickwinkeln und gestattet dank des Austauschs unter den Abteilungen eine präzise Diagnosefindung.Das Team besteht aus 13 Ärztinnen und Ärzten mit unterschiedlichen Facharzt-Qualifikationen und kann somit optimal auf Ihre individuellen Bedürfnisse eingehen.";
 
 ?>
 
@@ -22,7 +21,7 @@
 				</span>
 			</div>
 			<div class="col welcome-container-image hidden-sm-down">
-				<img src="images/welcome.png" alt="">
+				<img src="images/Fotos/Start/intro.jpg" alt="">
 			</div>
 		</div>
 	</div>

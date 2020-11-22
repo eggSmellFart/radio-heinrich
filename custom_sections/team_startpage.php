@@ -6,9 +6,8 @@
     
     $text =
 <<<EOT
-'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-\n\n    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
-\n    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.';
+Fachwissen, Erfahrung und Menschlichkeit sind der Schlüssel zu einer präzisen Diagnosefindung und bestmöglichen Behandlung. Unseres eingespielten Team begegnet unseren Patientinnen und Patienten auf Augenhöhe und versteht sich als Partner für eine an Ihren persönlichen Bedürfnissen ausgerichtete Versorgung. 
+\nZwölf Ärztinnen und Ärzte mit unterschiedlichen Facharzt-Qualifikationen verteilen sich effektiv auf unsere drei Disziplinen Radiologie, Nuklearmedizin und Strahlentherapie. Durch ständigen interdisziplinären Austausch betrachten wir Erkrankungen aus unterschiedlichen Blickwinkeln und finden patientenorientierte Lösungen.
 EOT
 ?>
 

@@ -208,18 +208,28 @@ section.terminvergabe-startpage {
     text-align: center; }
     section.terminvergabe-startpage .terminvergabe-floating-button-container h1, section.terminvergabe-startpage .terminvergabe-floating-button-container h2, section.terminvergabe-startpage .terminvergabe-floating-button-container h3, section.terminvergabe-startpage .terminvergabe-floating-button-container h4 {
       color: #fff;
-      font-family: OpenSans; }
+      font-family: "pill-gothic-600mg";
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 700;
+      text-align: center; }
     section.terminvergabe-startpage .terminvergabe-floating-button-container h4 {
       font-family: OpenSansL; }
     section.terminvergabe-startpage .terminvergabe-floating-button-container button {
-      border: 3px solid #fff;
-      color: #fff;
-      border-radius: 2px;
-      line-height: 2;
-      padding: 10px 20px;
-      margin: 20px auto;
+      display: inline-block;
+      position: relative;
+      cursor: crosshair;
+      font-family: "pill-gothic-600mg";
+      text-transform: uppercase;
+      font-size: 0.8em;
+      letter-spacing: 2px;
+      font-weight: 700;
       background-color: #4e5859;
-      width: 75%; }
+      color: #ebebec;
+      border: 2px solid #ebebec;
+      border-radius: 2px;
+      padding: 10px 20px;
+      text-shadow: none; }
 
 /*KOMPETENZEN*/
 section.kompetenzen-startpage {
@@ -443,12 +453,23 @@ section.row .kompetenzen-parallax .kompetenzen-overlay {
 #footer h3, #footer a {
   color: #afafaf;
   font-family: openSans;
+<<<<<<< HEAD
   font-size: .75em; }
 #footer h3 {
   font-weight: 700;
   margin-bottom: 10px;
   letter-spacing: 1px;
   font-size: .85em; }
+=======
+  font-size: 0.75em; }
+#footer h3 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: "pill-gothic-600mg";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85em;}
+>>>>>>> 7e49e7c2068de3d68b6465ab00a8d0d17283bf26
 #footer a {
   display: block;
   font-weight: 300; }

@@ -1,24 +1,24 @@
 <?php 
-	$col1_h3 = 'Lorem';
-	$col2_h3 = 'Ipsum';
-	$col3_h3 = 'Dolor';
-	$col4_h3 = 'Amet';
+	$col1_h3 = 'FÜR KOLLEGINNEN & KOLLEGEN';
+	$col2_h3 = 'FÜR PATIENTINNEN & PATIENTEN';
+	$col3_h3 = 'WIR SIND ZERTIFIZIERT';
+	$col4_h3 = 'RECHTLICHES';
 
-	$col_1_link1 = 'consectetur';
-	$col_1_link2 = 'adipisicing';
-	$col_1_link3 = 'Reiciendis';
+	$col_1_link1 = 'Informationen für Überweiser';
+	$col_1_link2 = 'Leistungsspektrum';
+	$col_1_link3 = 'Fortbildungen & Veranstaltungen';
 	
-	$col_2_link1 = 'dolorem';
-	$col_2_link2 = 'doloribus';
-	$col_2_link3 = 'excepturi';
+	$col_2_link1 = 'Online Terminvergabe';
+	$col_2_link2 = 'Kontakt';
+	$col_2_link3 = 'Anfahrt';
 
 	$col_3_link1 = 'veritatis';
 	$col_3_link2 = 'distinctio';
 	$col_3_link3 = 'facere';
 
-	$col_4_link1 = 'maiores';
-	$col_4_link2 = 'quam';
-	$col_4_link3 = 'libero';
+	$col_4_link1 = 'Impressum';
+	$col_4_link2 = 'Datenschutz';
+	$col_4_link3 = '© Radiologie Heinrichsallee';
 
 	$col_1_href1 = '#';
 	$col_1_href2 = '#';
@@ -61,11 +61,6 @@
 			<div class="col container">
 				<h3 class="footer_col_h3"><?php echo($col3_h3); ?></h3>	
 				<img src="images/Fotos/Start/footer/medzert.png" alt="">
-				<?php 
-					echo '<a href="' . $col_3_href1 . '">' . $col_3_link1 . '</a>';
-					echo '<a href="' . $col_3_href2 . '">' . $col_3_link2 . '</a>';
-					echo '<a href="' . $col_3_href3 . '">' . $col_3_link3 . '</a>';
-				?>
 			</div>
 			<div class="col container">
 				<h3 class="footer_col_h3"><?php echo($col4_h3); ?></h3>	
