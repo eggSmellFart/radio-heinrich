@@ -1,7 +1,7 @@
 <?php 
 	$h2 = "HERZDIAGNOSTIK";
 	$h1 = 'KARDIO-MRT';
-	$h3 = 'VORTEILE DER KARTIO-MRT';
+	$h3 = 'VORTEILE DER KARDIO-MRT';
 	$text_1 = 'Überlagerungsfreie 3D-Darstellung
 des Herzens'; 
 	$text_2 = 'Beurteilung der Herzdurchblutung in
@@ -11,9 +11,10 @@ Ruhe und unter Belastung';
 Herzgröße und Pumpleistung können bestimmt werden. Aus diesen Gründen eignet sich die MRT insbesondere zur Untersuchung der folgenden
 Teilbereiche des Herzens beziehungsweise bei folgenden Fragen:';
 	$ablauf_header ='Ablauf'; 
-	$ablauf_text1 = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis nobis architecto, numquam deserunt delectus doloremque amet omnis voluptates aspernatur, rem beatae nemo officiis a asperiores facere et dolorum quam?Lorem ipsum dolor sit amet consectetur adipisicing elit.';
-	$ablauf_text2 = 'Accusamus facilis nobis architecto, numquam deserunt delectus doloremque amet omnis voluptates aspernatur, rem beatae nemo officiis a asperiores facere et dolorum quam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis nobis architecto, numquam deserunt delectus doloremque amet omnis voluptates aspernatur, rem beatae nemo officiis a asperiores facere et dolorum quam?';
-	$ablauf_text3 = 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum dicta quisquam incidunt corrupti doloremque, autem nulla ipsam consectetur modi dolores odit vero error cupiditate exercitationem quam aperiam impedit iste explicabo?';
+	$ablauf_text1 = 'Eine MRT-Untersuchung erfolgt nicht-invasiv (also „von außen“) und ohne Strahlenbelastung, wie sie zB beim Röntgen auftritt.';
+	$ablauf_text2 = 'Während er Untersuchung ist zusätzlich das Anlegen eines EKGs (Elektrokardiogramm) wichtig. Es unterstützt bei der Berechnung der Schnittbilder vom Herzen. Je nach Fragestellung kann es zudem nötig sein, dass Sie während der Untersuchung
+    Kontrastmittel und/oder bestimmte Medikamente über einen venösen Zugang erhalten. Um die Bilder möglichst ohne störende Zusatzbewegungen aufzeichnen zu können, werden Sie während der Untersuchung mehrfach gebeten, den Atem anzuhalten, solange dies Ihnen möglich ist.';
+	$ablauf_text3 = 'Natürlich stehen wir während der gesamten Untersuchung mit Ihnen in Kontakt und Sie natürlich auch mit uns. Ein Arzt betreut die Untersuchung, wertet die Bilder aus und bespricht die Ergebnisse im Anschluss mit Ihnen.';
 	$dauer_header ='Dauer der Untersuchung'; 
 	$dauer_text1 = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis nobis architecto, numquam deserunt delectus doloremque amet omnis voluptates aspernatur, rem beatae nemo officiis a asperiores facere et dolorum quam?Lorem ipsum dolor sit amet consectetur adipisicing elit.';
 	$dauer_text2 = 'Accusamus facilis nobis architecto, numquam deserunt delectus doloremque amet omnis voluptates aspernatur, rem beatae nemo officiis a asperiores facere et dolorum quam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus facilis nobis architecto, numquam deserunt delectus doloremque amet omnis voluptates aspernatur, rem beatae nemo officiis a asperiores facere et dolorum quam?';
@@ -24,15 +25,14 @@ Teilbereiche des Herzens beziehungsweise bei folgenden Fragen:';
 	$termin_sidebar_2 = 'Rufen Sie uns gerne an:';
 	$termin_sidebar_3 = 'Zur Klärung wichtiger Fragen vor der Untersuchung können Termine nur telefonisch und nicht online vereinbart werden.';
 	$termin_phone = '0241 . 94695-0';
-	$doc_1 = "images/Fotos/team/thickethier.png";
+	$doc_1 = "images/Fotos/team/thickethier.jpg";
 	$doc1_title = 'PD Dr. med. univ' ;
 	$doc1_name = 'TILMAN HICKETHIER' ;
 	$doc1_bereich = 'Facharzt für Radiologie';
-	$doc_2 = "images/Fotos/team/kmruhl.png";
+	$doc_2 = "images/Fotos/team/kmruhl.jpg";
 	$doc2_title = 'Dr. med.' ;
 	$doc2_name = 'KARL M. RUHL' ;
 	$doc2_bereich = 'Facharzt für Radiologie';
-
 ?>
 
 
@@ -119,6 +119,7 @@ Teilbereiche des Herzens beziehungsweise bei folgenden Fragen:';
 															<div class="dauer_boxes_content">
 																<img src="images/icons/kompetenzen/uhr_1.png" alt="">
 																<div class="bottom_text">
+                                                                    <h3>Vorbereitung</h3>
 	
 																</div>
 															</div>
@@ -133,7 +134,7 @@ Teilbereiche des Herzens beziehungsweise bei folgenden Fragen:';
 														</div>
 														<div class="container col-4">
 															<div class="dauer_boxes_content">
-																<img src="images/icons/kompetenzen/uhr_3.png" alt="">
+																<img src="images/icons/zeiten/0min.png" alt="">
 																<div class="bottom_text">
 																	
 																</div>
