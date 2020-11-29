@@ -180,6 +180,32 @@ $kompetenzen_untertitel =  [
 		$(".nav-tabs .nav-item ").click(function() {
 			$(".nav-tabs .nav-item ").removeClass('active');
 		});
+	
+		$('.card').click(function() {
+			var img = $(this).find('.acc-indicator').find('img');
+			console.log(img);
+			if ($(this).find('.collapse').hasClass('show')) {
+				window.setTimeout(function() {
+					img.attr('src', 'images/icons/accordion/acc_plus.jpg')
+				},100);
+			} else {
+				window.setTimeout(function() {
+					img.attr('src', 'images/icons/accordion/acc_minus.jpg')
+				}, 100);
+			}
+			// var target = $('.collapse');
+			// console.log(target);
+			// var observer = new MutationObserver(function(mutations) {
+			// 	mutations.forEach(function(mutation) {
+			// 		console.log(mutation.target)
+			// 		console.log(mutation.attributeName);
+			// 	});
+			// });
+			// var config = {attributes: true};
+			// observer.observe(target, config);
+		})
+			
+	
 	</script>
 
 </body>
