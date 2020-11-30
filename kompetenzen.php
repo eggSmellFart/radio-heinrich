@@ -180,6 +180,49 @@ $kompetenzen_untertitel =  [
 		$(".nav-tabs .nav-item ").click(function() {
 			$(".nav-tabs .nav-item ").removeClass('active');
 		});
+			$('.card').click(function() {
+				// var img = $(this).find('.acc-indicator').find('img');
+				// console.log(img);
+				// if ($(this).find('.collapse').hasClass('show')) {
+				// 	window.setTimeout(function() {
+				// 		img.attr('src', 'images/icons/accordion/acc_plus.jpg')
+				// 	},100);
+				// } else {
+				// 	window.setTimeout(function() {
+				// 		img.attr('src', 'images/icons/accordion/acc_minus.jpg')
+				// 	}, 100);
+				// }
+				var target = $(this).find('.collapse')[0];
+				var MuatationObserver = window.MutationObserver ;
+				var config = { attributes: true, subtree: true, attributeFilter:['class']};
+				var myObserver = new MutationObserver(mutationHandler);
+				myObserver.observe(target, config);
+				disconnect();
+				function mutationHandler(mutationRecords) {
+					mutationRecords.forEach(function(mutation) {
+						if (mutation.type == 'attributes' && $(target).hasClass('show')) {
+							var img = $(target).parent().find('img');
+							console.log(img.attr('src') );
+							// if(img.attr('src') == 'images/icons/accordion/acc_plus.jpg') {
+							// 	img.attr('src', 'images/icons/accordion/acc_minus.jpg')
+							// } else {
+								
+							// 	img.attr('src', 'images/icons/accordion/acc_plus.jpg')
+
+							// }
+						}
+					});
+				}
+				function disconnect() {
+					window.setTimeout(function() {
+						myObserver.disconnect();
+					}, 500)
+				}
+			});
+				
+
+		
+	
 	</script>
 
 </body>

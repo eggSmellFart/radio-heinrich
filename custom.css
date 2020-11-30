@@ -238,6 +238,8 @@ section.kompetenzen-startpage {
     position: relative;
     overflow: hidden;
     margin-bottom: 10px; }
+    section.kompetenzen-startpage .kompetenzen-component-container:hover {
+      box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2); }
     section.kompetenzen-startpage .kompetenzen-component-container div.kompetenzen-background-img.img_1 {
       background: url("images/Fotos/Start/kompetenzen/ct01.jpg");
       width: 100%;
@@ -424,11 +426,17 @@ section.page-header-img {
   background-color: transparent; }
 section .titelbild {
   background-color: transparent; }
-section .subpage b, section .subpage p {
-  font-size: 1.1rem; }
-section .subpage h1, section .subpage h2, section .subpage h3, section .subpage p, section .subpage b, section .subpage span {
+section .subpage .color-overlay-container b, section .subpage .color-overlay-container p, section .subpage .sidebar b, section .subpage .sidebar p {
+  font-size: 1rem; }
+section .subpage .color-overlay-container h1, section .subpage .color-overlay-container h2, section .subpage .color-overlay-container h3, section .subpage .color-overlay-container p, section .subpage .color-overlay-container b, section .subpage .color-overlay-container span, section .subpage .color-overlay-container a, section .subpage .sidebar h1, section .subpage .sidebar h2, section .subpage .sidebar h3, section .subpage .sidebar p, section .subpage .sidebar b, section .subpage .sidebar span, section .subpage .sidebar a {
+  text-align: justify;
   color: #fff; }
-section .subpage hr {
+section .subpage .color-overlay-container .ansprechpartner_name, section .subpage .color-overlay-container .phone_number, section .subpage .sidebar .ansprechpartner_name, section .subpage .sidebar .phone_number {
+  font-size: 1.2rem;
+  font-weight: bold; }
+section .subpage .kompetenzen-parallax p, section .subpage .kompetenzen-parallax b {
+  color: #fff; }
+section .subpage .kompetenzen-parallax hr {
   margin-right: 34%;
   width: 66%;
   border-color: #fff; }
@@ -448,7 +456,30 @@ section .bottom-stripe {
   background-color: #4e5859; }
 section section.subpage-tab-content {
   font-size: 1rem;
-  background-color: #fff; }
+  background-color: #fff;
+  text-align: justify; }
+  section section.subpage-tab-content .accordion .card {
+    border: none; }
+    section section.subpage-tab-content .accordion .card .card-header {
+      position: relative;
+      margin-bottom: 0;
+      padding: 10px 0px 10px 0px;
+      background-color: #fff;
+      border-bottom: 2px solid #4e5859; }
+      section section.subpage-tab-content .accordion .card .card-header .acc-indicator {
+        position: absolute;
+        right: 0;
+        top: 7.5px; }
+      section section.subpage-tab-content .accordion .card .card-header button {
+        text-align: left;
+        width: 100%;
+        padding: 0;
+        color: #4e5859;
+        line-height: 1;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        font-family: "pill-gothic-600mg";
+        font-weight: 700; }
   section section.subpage-tab-content div.tab-main {
     padding-top: 60px; }
     section section.subpage-tab-content div.tab-main p {
@@ -470,11 +501,33 @@ section section.subpage-tab-content {
           height: 220px; }
   section section.subpage-tab-content .content_full_width .bg-grey.voruntersuchung {
     background-color: #ededed; }
+    section section.subpage-tab-content .content_full_width .bg-grey.voruntersuchung p {
+      margin-bottom: 10px; }
+    section section.subpage-tab-content .content_full_width .bg-grey.voruntersuchung h3 {
+      color: #4e5859;
+      margin: 40px 0px 30px 0px;
+      line-height: 1;
+      font-size: 1.2em;
+      text-transform: uppercase;
+      font-family: "pill-gothic-600mg";
+      font-weight: 700; }
     section section.subpage-tab-content .content_full_width .bg-grey.voruntersuchung .col-6 .voruntersuchung_container {
       position: relative;
       border: 1px solid #4E5859;
-      padding: 10px;
-      min-height: 420px; }
+      padding: 10px 5px;
+      margin-bottom: 30px;
+      color: #4e5859; }
+      section section.subpage-tab-content .content_full_width .bg-grey.voruntersuchung .col-6 .voruntersuchung_container .col-4 {
+        padding-left: 5px;
+        padding-right: 5px; }
+  section section.subpage-tab-content .tab_bottom_text_block h3 {
+    color: #4e5859;
+    margin: 40px 0px 30px 0px;
+    line-height: 1;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-family: "pill-gothic-600mg";
+    font-weight: 700; }
   section section.subpage-tab-content div.sidebar {
     padding-top: 30px; }
     section section.subpage-tab-content div.sidebar div.termin-sidebar {
