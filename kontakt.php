@@ -1,23 +1,3 @@
-<?php
-	$h1 = 'Kompetenzen';
-	$h2 = 'Unsere';
-	$kompetenzen = [
-		"1" => "Bewegungsapparat",
-		"2" => "Prostatadiagnostik",
-		"3" => "Herzdiagnostik",
-		"4" => "Brustdiagnositk",
-		"5" => "Neuroradiologie",
-		"6" => "Turmordiagnostik",
-		"7" => "Schmerz- und Strahlentherapie",
-		"8" => "Brustdiagnostik",
-	];
-$kompetenzen_untertitel =  [
-					"1" => "(MRT)",
-					"2" => "(MRT)",
-					"3" => "Szintigraphie",
-				];
-?>
-
 <!DOCTYPE html>
 <html dir="ltr" lang="de-DE">
 <head>
@@ -41,10 +21,9 @@ $kompetenzen_untertitel =  [
 
 	<!-- Document Title
 	============================================= -->
-	<title>Kompetenzen | RADIOLOGIE HEINRICHSALLEE</title>
+	<title>Kontakt | RADIOLOGIE HEINRICHSALLEE</title>
 
 </head>
-
 
 
 <body class="stretched">
@@ -53,12 +32,12 @@ $kompetenzen_untertitel =  [
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
-		<!-- Header
-		============================================= -->
+<!-- Header
+============================================= -->
 		<header id="header" class="full-header">
 			<div id="header-wrap" class="row">
 				
-				<div class="container col-8">
+				<div class="container col-10">
 					<div class="header-row">
 
 						<!-- Logo
@@ -87,51 +66,32 @@ $kompetenzen_untertitel =  [
 			</div>
 			<div class="header-wrap-clone"></div>
 		</header><!-- #header end -->
-			
-		<section class="parallax-window page-header-img" data-parallax="scroll" data-image-src="images/Fotos/Start/titelbild.jpg">
-			<div class="row">
-				<div class="color-box col-3 container yellow"></div>
-				<div class="color-box col-3 container green"></div>
-				<div class="color-box col-3 container blue"></div>
-				<div class="color-box col-3 container petrol"></div>
-			</div>
-			<div class=" clearfix col-12">
-				<div class="titelbild">
 
-				</div>
-				
-			</div>
-
-		</section>
-		<!-- Page Title
+        <!-- Page Title
 		============================================= -->
         <?php 
-			include 'custom_sections/kompetenzen/kompetenzen-pagetitle.php';
+			include 'custom_sections/kontakt/kontakt-pagetitle.php';
 		?><!-- #page-title end -->
 
+<!-- Content
+============================================= -->
 
-		<!-- Content 
+        <!-- Intro
 		============================================= -->
-        <?php 
-			include 'custom_sections/kompetenzen/kompetenzen-intro.php';
-		?><!-- #intro end -->
-                        
-                
-		<!-- <section id="page-title"> -->
-		<?php include 'custom_sections/kompetenzen_startpage.php'; ?>
-		<!-- Content Tabs Kompetenzen
+        <?php include 'custom_sections/kontakt/kontakt-intro.php';?>
+        <!-- #intro end -->
+        
+		<!-- Include Map from custom_sections/map_startpage.php 
 		============================================= -->
-		<section class="tab-content">
-		
-			<?php include 'custom_sections/kompetenzen/herzdiagnostik.php'; ?>
-			<?php include 'custom_sections/kompetenzen/bewegungsapparat.php'; ?>
-		
-		</section>
-		
+		<?php
+			include 'custom_sections/map_startpage.php'
+		?>w
+
 
 
 		<!-- Footer
 		============================================= -->
+
 		<?php include 'custom_sections/footer.php' ?>
 		<!-- #footer end -->
 
@@ -155,13 +115,18 @@ $kompetenzen_untertitel =  [
 	<script src="parallax_js/parallax.js"></script>
 
 	<script>
-		$('.parallax-window').parallax({
-			imageSrc: 'images/terminvergabe.png',
-			naturalWidth: 1680,
-    		naturalHeight: 350,
+		$('.parallax-window.terminvergabe-img-container').parallax({
+			imageSrc: 'images/Fotos/Start/parallax01.jpg',
+			naturalWidth: 1920,
+    		naturalHeight: 1080
 		});
 
-		console.log($('.parallax-window').data());
+		$('.parallax-window.titelbild').parallax({
+			imageSrc: 'images/Fotos/Start/titelbild.jpg',
+			naturalWidth: 1920,
+    		naturalHeight: 750
+		});
+
 
 		$('#oc-slider').owlCarousel({
 			loop:true,
@@ -182,59 +147,8 @@ $kompetenzen_untertitel =  [
 		});
 
 
-		$('.kompetenzen-startpage .kompetenzen-component-container').on('click', function (e) {
-			e.preventDefault()
-			console.log($(this));
-			$(this).tab('show')
-		});
-		$(".nav-tabs .nav-item ").click(function() {
-			$(".nav-tabs .nav-item ").removeClass('active');
-		});
-			$('.card').click(function() {
-				// var img = $(this).find('.acc-indicator').find('img');
-				// console.log(img);
-				// if ($(this).find('.collapse').hasClass('show')) {
-				// 	window.setTimeout(function() {
-				// 		img.attr('src', 'images/icons/accordion/acc_plus.jpg')
-				// 	},100);
-				// } else {
-				// 	window.setTimeout(function() {
-				// 		img.attr('src', 'images/icons/accordion/acc_minus.jpg')
-				// 	}, 100);
-				// }
-				var target = $(this).find('.collapse')[0];
-				var MuatationObserver = window.MutationObserver ;
-				var config = { attributes: true, subtree: true, attributeFilter:['class']};
-				var myObserver = new MutationObserver(mutationHandler);
-				myObserver.observe(target, config);
-				disconnect();
-				function mutationHandler(mutationRecords) {
-					mutationRecords.forEach(function(mutation) {
-						if (mutation.type == 'attributes' && $(target).hasClass('show')) {
-							var img = $(target).parent().find('img');
-							console.log(img.attr('src') );
-							// if(img.attr('src') == 'images/icons/accordion/acc_plus.jpg') {
-							// 	img.attr('src', 'images/icons/accordion/acc_minus.jpg')
-							// } else {
-								
-							// 	img.attr('src', 'images/icons/accordion/acc_plus.jpg')
-
-							// }
-						}
-					});
-				}
-				function disconnect() {
-					window.setTimeout(function() {
-						myObserver.disconnect();
-					}, 500)
-				}
-			});
-				
-
-		
 	
 	</script>
 
 </body>
 </html>
-
